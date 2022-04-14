@@ -23,14 +23,9 @@
             <td><?php echo $brg->kategori ?></td>
             <td><?php echo $brg->harga ?></td>
             <td><?php echo $brg->stok ?></td>
-<<<<<<< HEAD
-            <td><?php echo anchor('index.php/admin/data_barang/edit/' .$brg->id_brg, '<div class="btn btn-primary btn-sm"><i class="fa fa-edit"></i></div>') ?></td>
-            <td><?php echo anchor('index.php/admin/data_barang/hapus/' .$brg->id_brg, '<div class="btn btn-danger btn-sm"><i class="fa fa-trash"></i></div>') ?></td>
-=======
-            <td><?php echo anchor('dashboard/detail/'. $brg->id_brg, '<div class="btn btn-success btn-sm"><i class="fas fa-search-plus"></i></div>') ?></td>
+            <td><?php echo anchor('detailbarang/detail/'. $brg->id_brg, '<div class="btn btn-success btn-sm"><i class="fas fa-search-plus"></i></div>') ?></td>
             <td><?php echo anchor('admin/data_barang/edit/' .$brg->id_brg, '<div class="btn btn-primary btn-sm"><i class="fa fa-edit"></i></div>') ?></td>
             <td><?php echo anchor('admin/data_barang/hapus/' .$brg->id_brg, '<div class="btn btn-danger btn-sm"><i class="fa fa-trash"></i></div>') ?></td>
->>>>>>> b3a705d5698e3d3407adf165b91c969684031baa
         </tr>
 
         <?php endforeach ?>
