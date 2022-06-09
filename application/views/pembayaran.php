@@ -55,6 +55,7 @@
                         <option>BRI - 4XXXXX5</option>
                         <option>MANDIRI - 5XXXXX6</option>
                         <option>BSI - 6XXXXX7</option>
+                        <option>Cash On Delivery (COD)</option>
                         <option>MUAMALAT - 7XXXXX8</option>
                     </select>
                 </div>
